@@ -1,0 +1,961 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name:  - One Page Portfolio Template
+    Template URI: https://devitems.com/html/redleaf-preview
+    Description: This is raptas One Page Portfolio Template
+    Author: HasTech
+    Author URI: https://devitems.com
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Template default css
+    2. Header area
+    
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  1. Template default css
+/*----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900|Poppins:300,400,500,600,700');
+html,
+body {
+    height: 100%;
+}
+.float-left {
+    float: left
+}
+.float-right {
+    float: right
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px
+}
+a:focus {
+    outline: 0px solid
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+.fix {
+    overflow: hidden
+}
+p {
+    color: #464646;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0 0 15px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #464646;
+}
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #1879fd;
+}
+a:active,
+a:hover {
+    outline: 0 none;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+.clear {
+    clear: both
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff none repeat scroll 0 0;
+    color: #464646;
+}
+.height-100vh {
+    height: 100vh;
+}
+.table,
+.table-cell {
+    display: table;
+    height: 100%;
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.table {
+    margin-bottom: 0;
+}
+.relative {
+    position: relative
+}
+/*colored background*/
+
+.white-bg {
+    background: #fff;
+}
+.gray-bg {
+    background: #f7f7f7;
+}
+.black-bg {
+    background: #111111;
+}
+/*colored text*/
+
+.white-text {
+    color: #fff;
+}
+.gray-text {
+    color: #7a7a7a
+}
+.dp-gray-text {
+    color: #535353
+}
+i {
+    transition: all .3s ease 0s;
+}
+/*************************
+    Margin top
+*************************/
+
+.mt-0 {
+    margin-top: 0
+}
+.mb-52 {
+    margin-bottom: 52px
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mtb-60 {
+    margin: 60px 0;
+}
+/*************************
+    Padding top
+*************************/
+
+.pt-60 {
+    padding-top: 60px
+}
+.pt-90 {
+    padding-top: 90px
+}
+.pt-100 {
+    padding-top: 100px
+}
+.pb-120 {
+    padding-bottom: 120px
+}
+.pb-100 {
+    padding-bottom: 100px
+}
+.pt-120 {
+    padding-top: 120px
+}
+.ptb-220 {
+    padding: 220px 0
+}
+.ptb-50 {
+    padding: 50px 0
+}
+.ptb-40 {
+    padding: 40px 0
+}
+.ptb-60 {
+    padding: 60px 0
+}
+.ptb-70 {
+    padding: 70px 0
+}
+.ptb-80 {
+    padding: 80px 0
+}
+.ptb-200 {
+    padding: 200px 0
+}
+.ptb-150 {
+    padding: 150px 0
+}
+.ptb-120 {
+    padding: 120px 0;
+}
+.ptb-100 {
+    padding: 100px 0;
+}
+.ptb-110 {
+    padding: 110px 0;
+}
+.pt-120 {
+    padding-top: 120px
+}
+.pb-80 {
+    padding-bottom: 80px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.pb-90 {
+    padding-bottom: 90px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+.pb-150 {
+    padding-bottom: 150px;
+}
+.pt-200 {
+    padding-top: 200px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-70 {
+    margin-bottom: 70px;
+}
+/*************************
+tag-padding
+*************************/
+
+.ht-pt {
+    padding: 8px 0 14px;
+}
+/*----------------------
+	2. Header area
+------------------------*/
+
+.header-area {
+    left: 0;
+    padding: 30px 0;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 999999;
+}
+.header-area.stick {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    position: fixed;
+    top: 0;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+.main-menu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.main-menu li a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    text-transform: uppercase;
+}
+.header-area .navbar-brand {
+    float: left;
+    font-size: non;
+    height: 0;
+    line-height: 0;
+    padding: 0;
+}
+.main-menu.float-right li:first-child {
+    padding-left: 0;
+}
+.main-menu nav ul li a::before {
+    background: #ffffff none repeat scroll 0 0;
+    bottom: -5px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+    width: 25px;
+}
+.main-menu nav ul li.active a::before,
+.main-menu nav ul li a:hover::before {
+    transform: scale(1);
+}
+.header-area .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+.slider-img-area {
+    position: relative;
+}
+.bg-img-1 {
+    background: url("img/bg-img/bg-1.jpg") no-repeat scroll center bottom / cover;
+}
+.bg-oapcity-40 {
+    position: relative;
+}
+.bg-oapcity-40::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.top-text {} .slider-img {} .home-slider {} .slider-text h1 {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.navbar-brand.logo {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+/*----------------------
+	3. slider area
+------------------------*/
+
+.slider-area,
+.video-area {
+    position: relative;
+}
+.slider-area::before {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.single-slider {
+    background-position: center center;
+    background-size: cover;
+    z-index: 99;
+}
+.single-slider-all {
+  color: #fff;
+  position: relative;
+  z-index: 99;
+}
+.height-100vh .container {
+  display: table;
+  height: 100%;
+}
+.height-100vh .container .slider-middle {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.slider-title h1 {
+  color: #ffffff;
+  font-size: 37px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+    overflow: hidden;
+}
+.slider-title h2 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: capitalize;
+}
+.slider-title h2 span {
+    font-weight: 700;
+}
+.slider-icon {
+    margin-top: 35px;
+}
+.slider-icon li {
+    display: inline-block;
+}
+.slider-icon li a {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+.slider-icon li a:hover {
+    color: #999;
+}
+.scroll-icon a {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 25px;
+    padding: 25px 10px;
+}
+.single-slider-all .scroll-icon {
+    bottom: -320px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+/*----------------------
+	4. About area
+------------------------*/
+
+.about-minimal > h2 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.about-minimal > p {
+    font-weight: 300;
+}
+.about-minimal ul li {
+    border-top: 1px solid #f6f6f6;
+    display: block;
+    font-weight: 300;
+    line-height: 1.3em;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    font-family: "Poppins", sans-serif;
+}
+.about-minimal ul li:last-child {
+    border-bottom: 1px solid #f6f6f6;
+}
+.about-minimal a {
+  border: 1px solid #ddd;
+  color: #464646;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 12px 25px 11px;
+  text-transform: uppercase;
+}
+.about-minimal a:hover {
+    background: #464646 none repeat scroll 0 0;
+    border-color: #464646;
+    color: #fff;
+}
+.scroll-icon {
+    bottom: 80px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
+/*----------------------
+	5. Services area
+------------------------*/
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+.single-services i {
+    color: #1c1c1c;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.single-services {
+    padding: 35px 40px;
+}
+.single-services h3 {
+    color: #232323;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+}
+.single-services {
+    transition: all 0.3s ease 0s;
+}
+.single-services:hover {
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+}
+/*----------------------
+	6. Portfolio area
+------------------------*/
+
+.img-poppu > img {
+    width: 100%;
+}
+.portfolio-menu button {
+    background-color: transparent;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    color: #444;
+    font-size: 12px;
+    font-weight: normal;
+    height: 35px;
+    line-height: 20px;
+    margin-right: 18px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.portfolio-menu button:hover,
+.portfolio-menu button.active {
+    background-color: #444;
+    border: 1px solid #444;
+    color: #fff;
+}
+.portfolio {
+    margin-bottom: 30px;
+    position: relative;
+}
+.hover-style::before {
+    background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.hover-style:hover::before {
+    opacity: 0.65;
+}
+
+.portfolio-title {
+    bottom: -10px;
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    z-index: 2;
+}
+.portfolio:hover .portfolio-title {
+    opacity: 1;
+    bottom: 20px;
+}
+.portfolio-title > h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.portfolio-title > p {
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.portfolio-title > h3 a {
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+}
+.portfolio-title > h3 a:hover {
+    color: #ccc;
+}
+.portfolio:hover .portfolio-title h3 {
+    transform: translateY(0px);
+}
+/*----------------------
+	7. Testimonial area
+------------------------*/
+
+.single-testimonial h2 {
+    color: #232323;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.single-testimonial h3 {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    text-transform: capitalize;
+}
+.single-testimonial > p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 35px;
+}
+/*............. 8. Contact area ................*/
+
+.contact-input input,
+.contact-textarea textarea {
+    background-color: #fff;
+    border: inherit;
+    border-radius: 0px;
+    box-shadow: inherit;
+    color: #666;
+    font-size: 13px;
+    height: 44px;
+    outline: medium none;
+    padding: 0 20px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.contact-input {
+    margin-bottom: 15px;
+}
+.contact-textarea textarea {
+    height: 130px;
+    padding: 15px 20px;
+}
+.submit button {
+    background-color: #444;
+    border: 1px solid #666;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 35px;
+    padding: 10px 40px 7px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.submit button:hover {
+    background-color: transparent;
+    color: #666;
+    border: 1px solid #666;
+}
+.form-control:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+.contact-input input::-webkit-input-placeholder,
+.contact-textarea textarea::-webkit-input-placeholder {
+    /* Chrome */
+    
+    color: #666666;
+    opacity: 1;
+}
+.contact-input input::-moz-placeholder,
+.contact-textarea textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    color: #666666;
+    opacity: 1;
+}
+.submit {
+    text-align: center;
+}
+.form-messege.success {
+  text-align: center;
+    color: #000;
+}
+/*----------------------
+	9. Footer area
+------------------------*/
+
+.footer-icon {
+  float: right;
+  padding-top: 2px;
+}
+.footer-icon li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-icon li:first-child {
+    margin-left: 0px;
+}
+.footer-icon li a {
+    color: #222222;
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    transition: all 0.3s ease 0s;
+}
+.footer-icon li a:hover {
+    color: #888;
+}
+.copyright {
+    float: left;
+}
+.copyright p {
+    color: #222222;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.copyright p a {
+    color: #222222;
+    transition: all .3s ease 0s;
+}
+.copyright p a:hover {
+    text-decoration: underline;
+}
+a#scrollUp {
+    background: #666 none repeat scroll 0 0;
+    bottom: 54px;
+    color: #fff;
+    font-size: 23px;
+    height: 40px;
+    line-height: 34px;
+    position: absolute;
+    right: 32px;
+    text-align: center;
+    width: 40px;
+}
+a#scrollUp:hover {
+    background: #000 none repeat scroll 0 0;
+}
+.header-area .navbar-brand {
+    float: left;
+    height: 0;
+    line-height: 0;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/*----------------------
+	2. Text-img slider
+------------------------*/
+
+.slider-img-area .owl-theme .owl-controls .owl-nav div {
+    border: 1px solid #fff;
+    border-radius: inherit;
+    color: #fff;
+    right: 10px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-size: 30px;
+    font-weight: 900;
+    height: 50px;
+    line-height: 48px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.8s ease 0s;
+    width: 50px;
+}
+.slider-img-area .owl-theme .owl-controls .owl-nav div.owl-prev {
+    left: 10px;
+    right: auto;
+}
+.slider-img-area:hover .owl-controls .owl-nav div {
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-nav div:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #333;
+}
+.slider-opacity {
+    position: relative;
+}
+.slider-opacity::before {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.slider-text-active {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 9;
+}
+
+
+
+/*----------------------
+	2. single-portfolio
+------------------------*/
+h2.page-title {
+  color: #464646;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.breadcrumbs > ul li {
+  color: #464646;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+    display: inline-block;
+}
+.breadcrumbs > ul li a {
+  color: #464646;
+  padding-right: 17px;
+  position: relative;
+}
+.breadcrumbs ul li a::after {
+  background-color: #464646;
+  content: "";
+  font-size: 8px;
+  height: 15px;
+  margin-left: 11px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  transform: rotate(33deg);
+  width: 1.5px;
+}
+
+.breadcrumbs ul li a.active {
+  color: #222;
+    font-weight: 600;
+}
+.breadcrumbs ul li a.active:hover {
+  color: #888;
+    font-weight: 600;
+}
+
+/*----------------------
+	2. single-portfolio
+------------------------*/
+
+
+
+.header-area.single-portfolio {
+  position: inherit;
+    background: #333 none repeat scroll 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+.portfolio-meta ul {
+  background: #f8f8f8 none repeat scroll 0 0;
+  border: 1px solid #e5e5e5;
+  margin: 0;
+  padding: 0 20px;
+}
+.portfolio-meta ul li {
+  border-bottom: 1px solid #e5e5e5;
+  color: #666;
+  padding: 15px 0;
+}
+.portfolio-meta ul li:last-child {
+  border-bottom: none;
+}
+.portfolio-meta ul li a{
+  color: #666;
+}
+.portfolio-meta ul li a:hover{
+  color: #444;
+}
+.portfolio-meta ul > li i {
+  color: #444;
+  font-size: 16px;
+  line-height: normal;
+  margin-right: 20px;
+}
+
+.portfolio-meta ul li span {
+  color: #444;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.project-desc {
+  margin-bottom: 30px;
+}
+
+.project-desc h3 {
+  border-bottom: 1px solid #e5e5e5;
+  color: #444;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 22px;
+  margin: 0 0 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.post-share ul {
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.post-share li {
+  float: left;
+  margin-right: 18px;
+}
+.post-share li a {
+  display: block;
+  font-size: 16px;
+}
+.post-share li a {
+  color: #333;
+}
+.post-share li a:hover {
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

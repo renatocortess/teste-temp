@@ -1,0 +1,20 @@
+<ul>
+ <li>03 Home Pages </li>
+ <li>One Landing Page</li>
+ <li>Total 11+ Html Pages </li>
+ <li>Sass Supported</li>
+ <li>Html5 & Css3</li>
+ <li>Slick slider use</li>
+ <li>Google Font</li>
+ <li>Fully Responsive</li>
+ <li>Tested with multiple device</li>
+ <li>Bootstrap v4.3.1 </li>
+ <li>Beautiful and Unique Design</li>
+ <li>Clean Markup</li>
+ <li>W3 validate Markup</li>
+ <li>Easy to Customize </li>
+ <li>Well Documented</li>
+ <li>Working contact form</li>
+ <li>Responsive Layout </li>
+ <li>Fully compatible for all major browsers such as Firefox, Safari, Chrome, Vivaldi, Internet Explorer 9+</li>
+</ul>

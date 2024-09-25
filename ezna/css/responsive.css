@@ -1,0 +1,350 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .single-slider {
+        height: auto;
+        padding: 350px 0 350px;
+    }
+    .single-service {
+        padding: 60px 22px;
+    }
+    p.about-pera {
+        margin: 20px 0 35px;
+    }
+.single-services {
+  padding: 35px 8px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu.open {
+        right: 0;
+    }
+    .single-slider {
+        height: auto;
+        padding: 300px 0 300px;
+    }
+    .slider-area .owl-nav {
+        display: inherit;
+    }
+    .single-services {
+  padding: 25px 30px;
+}
+    .slider-title h2 {
+  font-size: 50px;
+  line-height: 65px;
+}
+.minimal-img {
+  margin-top: 50px;
+}
+    .about-text {
+        padding-top: 0;
+    }
+    p.about-pera {
+        display: none;
+    }
+    .team-icon > a {
+        font-size: 15px;
+        height: 27px;
+        line-height: 23px;
+        margin: 0 7px;
+        width: 27px;
+    }
+    .owl-nav {
+        display: none;
+    }
+    .blog-right-sidebar {
+        margin-top: 30px;
+    }
+    .blog-right-sidebar-bottom li.nn {
+        margin-right: 14px;
+    }
+    .main-menu li {
+  padding-left: 16px;
+}
+    .blog-area .owl-nav {
+        display: none;
+    }
+    .mb-60 {
+        margin-bottom: 30px;
+    }
+    .single-testimonial > p {
+  padding: 0 35px;
+}
+.project-desc {
+  margin-top: 40px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .container {
+        width: 300px
+    }
+    .header-area .navbar-toggle {
+        margin-right: 0;
+        padding: 0;
+    }
+    .main-menu {
+        background-color: #000;
+        width: 100%;
+        float: left;
+        padding: 20px;
+    }
+    .main-menu ul li {
+        display: block;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .main-menu ul li:last-child {
+        margin-bottom: 0px;
+    }
+    .slider-text h1 {
+        font-size: 50px;
+    }
+    .single-slider {
+  height: auto;
+  padding: 175px 0;
+}
+    .slider-text h2 {
+        font-size: 30px;
+    }
+    .ptb-100 {
+        padding: 40px 0;
+    }
+    .section-title > p {
+        padding: 0;
+    }
+    .pt-100 {
+        padding-top: 40px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+    }
+    .single-service {
+        padding: 40px 10px;
+    }
+    .portfolio-menu button {
+        margin-bottom: 10px;
+    }
+    .pb-70 {
+        padding-bottom: 10px;
+    }
+    .single-count {
+        margin-bottom: 40px;
+    }
+    .single-count.res-count {
+        margin-bottom: 0;
+    }
+    .count-title h2 {
+        margin: 10px 0;
+    }
+    .team-icon > a {
+        font-size: 15px;
+        height: 30px;
+        line-height: 26px;
+        margin: 0 10px;
+        width: 30px;
+    }
+    .submit input {
+        margin-top: 25px;
+    }
+    .footer-address {
+        padding: 30px 0 30px;
+    }
+    .footer-text {
+        padding-top: 30px;
+    }
+    .footer-top-info ul li {
+        padding-right: 0;
+    }
+    .footer-top-info ul li.res-mrg {
+        margin: 7px 0;
+    }
+    .portfolio-menu button {
+        margin-right: 10px;
+        padding: 0 15px;
+    }
+    .img-poppu > img {
+        width: 100%;
+    }
+    p.about-pera {
+        margin: 15px 0 25px;
+    }
+    .slider-area .owl-nav {
+        display: inherit;
+    }
+    .blog-area .owl-nav {
+        display: none;
+    }
+    .pb-150 {
+        padding-bottom: 100px;
+    }
+    .pt-200 {
+        padding-top: 150px;
+    }
+    .blog-meta > span {
+        margin-right: 8px;
+    }
+    .blog-meta > span i {
+        margin-right: 5px;
+    }
+    .blog-middle-mrg {
+        margin: 32px 0 33px;
+    }
+    .mtb-60 {
+        margin: 20px 0;
+    }
+    .blog-search {
+        margin-top: 40px;
+    }
+    .mb-60 {
+        margin-bottom: 30px;
+    }
+    .blog-right-sidebar-bottom li.nn {
+        margin-bottom: 0;
+        margin-right: 14px;
+    }
+    h3.leave-comment-text {
+        margin-bottom: 20px;
+    }
+    .header-area.stick {
+        padding: 15px 0;
+    }
+    .blog-info > h3 {
+        margin-top: 14px;
+    }
+    .slider-title h2 {
+  font-size: 24px;
+  line-height: 40px;
+}
+    blockquote {
+        padding: 14px 20px;
+    }
+    .navbar-brand.logo {
+  margin-top: 16px;
+}
+    .slider-title h1 {
+        margin-bottom: 0;
+    }
+    .about-text > h2 {
+        font-size: 32px;
+    }
+    .about-minimal > h2 {
+  font-size: 21px;
+}
+.minimal-img {
+  margin-top: 50px;
+}    
+.about-minimal .mb-40 {
+  margin-bottom: 10px;
+}   
+.section-title h2 {
+  font-size: 35px;
+}    
+.single-services {
+  padding: 35px 17px;
+}    
+.ptb-120 {
+  padding: 60px 0;
+}    
+.footer-icon {
+  float: left;
+  margin-top: 20px;
+}    
+.ptb-70 {
+  padding: 50px 0;
+}    
+.scroll-icon {
+  bottom: 50px;
+}    
+.header-area .navbar-brand {
+  padding: 0;
+}    
+.slider-icon {
+  margin-top: 15px;
+}    
+.header-area .navbar-collapse {
+  padding-left: 15px;
+  padding-right: 15px;
+}    
+.slider-img-area .owl-theme .owl-controls .owl-nav div {
+  font-size: 20px;
+  height: 30px;
+  line-height: 27px;
+  width: 30px;
+}   
+.slider-title h1 {
+  font-size: 20px;
+  overflow: hidden;
+}  
+.single-slider-all {
+  text-align: center;
+}    
+h2.page-title {
+  font-size: 19px;
+    letter-spacing: 0;
+}
+.portfolio-meta ul {
+  padding: 0 12px;
+}    
+.project-desc {
+  margin-top: 40px;
+}    
+.portfolio-details .pt-60 {
+  padding-top: 40px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+    .footer-top-info ul li.res-mrg {
+        margin: 7px 0 7px 15px;
+    }
+}
